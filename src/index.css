@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color:#ffe96c;
+    --secondary-color:#232323;
+    --third-color:#ffffff;
+}
+
+
+
+body{
+    font-family: Poppins;
+
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
