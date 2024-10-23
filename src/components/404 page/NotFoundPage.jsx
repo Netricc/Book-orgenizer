@@ -1,12 +1,13 @@
 import './notfoundpage.css'
 import { Link } from "react-router-dom";
 import nofoundpageImage from "./../../assets/nofoundpageImage.png"
-
+import Header from "../Header/Header.jsx"
 
 export default function NotFoundPage() {
   let currentHref = window.location.href;
   let lastSegment = currentHref.substring(currentHref.lastIndexOf('/') + 1);
   return (
+    <>
     <section className='NoFoundPage'>
       <div className="container">
 
@@ -21,5 +22,6 @@ export default function NotFoundPage() {
 
       </div>
     </section>
+    </>
   )
 }

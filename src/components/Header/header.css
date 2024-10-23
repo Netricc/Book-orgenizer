@@ -1,0 +1,87 @@
+.header{
+    width: 100%;
+    background: var(--primary-color) ;
+}
+
+.header .logo{
+ font-size: 43px;
+ font-family: 'Joti One';  
+ color: var(--secondary-color); 
+}
+
+.header a{
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 0;
+}
+
+.header .navigation{
+    display: flex;
+    width: 100%;
+}
+
+.header .navigation .pages{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    flex-direction: row;
+    gap: 80px;
+}
+
+.header .navigation .pages li a{
+    color: var(--secondary-color);
+    font-size: 24px;
+}
+
+.searchAccount{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.searchAccount .searchinput{
+    display: flex;
+    align-items: center;
+}
+
+.searchAccount .searchinput input{
+    border: none;
+    outline: none;
+    width: 180px;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px 0 0 5px;
+    background: var(--third-color);
+}
+
+.searchAccount .searchinput i{
+    padding: 10px;
+    background-color: var(--third-color);
+    height: 40px;
+    border-radius: 0 5px 5px 0;
+    font-size: 18px;
+}
+
+.searchAccount button{
+    border: 0;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:var(--third-color) ;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.searchAccount button i{
+    font-size: 18px;
+}

@@ -1,0 +1,68 @@
+.login-section{
+    width: 100%;
+    height: 86vh;
+    font-family: Poppins;
+}
+
+
+.login-section .container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+.login-section form{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.login-section form div{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.login-section form div input{
+    border: none;
+    outline: none;
+    padding: 8px;
+    border-radius: 5px;
+    color: var(--secondary-color);
+    font-size: 18px;
+}
+
+.login-section form button{
+    border: none;
+    padding: 6px;
+    font-size: 18px;
+    color: var(--secondary-color);
+    background: var(--primary-color);
+}
+
+.login-section .google-button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    border: 0;
+    outline: 0;
+    padding: 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--secondary-color);
+    font-weight: 500;
+    font-size: 18px;
+    
+}
+
+.login-section .google-button svg{
+    width: 40px;
+}
