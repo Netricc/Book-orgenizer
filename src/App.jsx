@@ -9,6 +9,7 @@ import NotFoundPage from "./components/404 page/NotFoundPage.jsx";
 import { AuthProvider } from './contexts/authContext';
 
 function App() {
+
   return (
     <>
       {/* Wrap BrowserRouter with AuthProvider */}

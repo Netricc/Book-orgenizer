@@ -1,0 +1,19 @@
+.app-section{
+    font-family: Poppins;
+    color: var(--secondary-color);
+}
+
+.app-section .container{
+padding: 80px 0;
+}
+
+.app-section .noLoginMSG{
+    font-size: 40px;
+    width: 50%;
+}
+
+.app-section .noLoginMSG a{
+    color: rgb(0, 94, 255);
+    text-decoration: none;
+}
+

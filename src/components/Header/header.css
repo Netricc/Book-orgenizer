@@ -1,32 +1,32 @@
-.header{
+.header {
     width: 100%;
-    background: var(--primary-color) ;
-}
-
-.header .logo{
- font-size: 43px;
- font-family: 'Joti One';  
- color: var(--secondary-color); 
-}
-
-.header a{
+    background: var(--primary-color);
+  }
+  
+  .header .logo {
+    font-size: 43px;
+    font-family: 'Joti One';
+    color: var(--secondary-color);
+  }
+  
+  .header a {
     text-decoration: none;
     color: var(--secondary-color);
-}
-
-.header .container{
+  }
+  
+  .header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 36px 0;
-}
-
-.header .navigation{
+  }
+  
+  .header .navigation {
     display: flex;
     width: 100%;
-}
-
-.header .navigation .pages{
+  }
+  
+  .header .navigation .pages {
     list-style: none;
     display: flex;
     justify-content: center;
@@ -34,25 +34,25 @@
     align-items: center;
     flex-direction: row;
     gap: 80px;
-}
-
-.header .navigation .pages li a{
+  }
+  
+  .header .navigation .pages li a {
     color: var(--secondary-color);
     font-size: 24px;
-}
-
-.searchAccount{
+  }
+  
+  .searchAccount {
     display: flex;
     flex-direction: row;
     gap: 10px;
-}
-
-.searchAccount .searchinput{
+  }
+  
+  .searchAccount .searchinput {
     display: flex;
     align-items: center;
-}
-
-.searchAccount .searchinput input{
+  }
+  
+  .searchAccount .searchinput input {
     border: none;
     outline: none;
     width: 180px;
@@ -61,27 +61,136 @@
     font-size: 18px;
     border-radius: 5px 0 0 5px;
     background: var(--third-color);
-}
-
-.searchAccount .searchinput i{
+  }
+  
+  .searchAccount .searchinput i {
     padding: 10px;
     background-color: var(--third-color);
     height: 40px;
     border-radius: 0 5px 5px 0;
     font-size: 18px;
-}
-
-.searchAccount button{
+  }
+  
+  .searchAccount button {
     border: 0;
     padding: 0;
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color:var(--third-color) ;
+    background-color: var(--third-color);
     padding: 10px;
     cursor: pointer;
-}
-
-.searchAccount button i{
+  }
+  
+  .searchAccount button i {
     font-size: 18px;
-}
+  }
+  
+  .User-btn {
+    padding: 0 !important;
+  }
+  
+  .User-btn img {
+    width: 100%;
+    border: 2px solid var(--third-color);
+    border-radius: 50%;
+  }
+  
+  .UserCard {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0 0 2000px 1000px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    display: none;
+    transition: 0.5s;
+  }
+  
+  .UserCard.show-card {
+    display: block;
+  }
+  
+  .UserCard header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .UserCard header span {
+    font-size: 18px;
+    border-left: 4px solid var(--primary-color);
+    font-weight: 500;
+    padding-left: 6px;
+  }
+  
+  .UserCard header button {
+    border: none;
+    outline: none;
+    font-size: 22px;
+    color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  
+  .UserCard header button:hover {
+    color: red;
+  }
+  
+  .UserCard .content {
+    padding: 20px 0;
+  }
+  
+  .UserCard .content .hr {
+    width: 80%;
+    height: 1px;
+    background: gray;
+    margin: 15px 0;
+  }
+  
+  .UserCard .content span {
+    color: var(--secondary-color);
+    font-weight: 500;
+  }
+  
+  .UserCard .content p {
+    margin: 10px 0;
+    font-size: 20px;
+  }
+  
+  .UserCard input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .UserCard .content button {
+    width: 100%;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .UserCard .message {
+    font-size: 14px;
+    color: green;
+  }
+
+  .UserCard .verificationEmail-btn{
+    margin-top: 20px;
+    background-color: green !important;
+    color: var(--third-color) !important;
+  }
+  
