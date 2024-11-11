@@ -40,7 +40,7 @@ Feel free to reach out if you have any questions or suggestions!
    ```
 3. Run the app:
    ```bash
-   npm start
+   npm run dev
    ```
 
 Enjoy organizing your book collection with ease!
